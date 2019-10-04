@@ -1,4 +1,4 @@
-#this list of references is in alphabetical order by author
+#this list of references is in BibTeX format and in alphabetical order by author
 #the link with the source ids in Crop Origins database is the article Citation Key (e.g. 136 for the first reference in the list)
 
 @article{136,
