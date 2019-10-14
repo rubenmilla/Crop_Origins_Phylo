@@ -1,5 +1,3 @@
-This is the repository of the **Crop Origins** database and of the **Phylo Food** phylogenetic tree, as described in Milla (2019).
-
 **Crop Origins** is a comprehensive ckecklist of crops species cultivated for food. It includes associated data on diverse continuous and categorical descriptors of antiquity of cultivation, organ harvested for primary use, growth form, and identities, distribution and climate at sites of origin of crops´ wild progenitors.
 
 **Phylo Food** is a time-calibrated and fully resolved phylogenetic tree of the species in **Crop Origins**.
