@@ -3,7 +3,7 @@
 **Phylo Food** is a time-calibrated and fully resolved phylogenetic tree of the species in **Crop Origins**.
 
 
-## Links:
+## Downloads:
 This repository includes **[version 1.0](https://github.com/rubenmilla/Crop_Origins_Phylo/tree/master/Crop_Origins_Phylo_v1_0)**  of **Crop Origins** and **Phylo Food**, which is a static mirror of the supplementary material in Milla (2019); and **[a live version](https://github.com/rubenmilla/Crop_Origins_Phylo/tree/master/Crop_Origins_Phylo_v_live)** of both resources, meant to be regularly updated. In those links you can find the resources, plus readme and metadata files.
 
 
