@@ -12,7 +12,7 @@ This is work in progress, please do not hesitate to submit your feedback or aler
 
 *Terms of use*: the resources in this repository can be freely downloaded and used by any interested person or party, provided that the source is properly cited in publications.
 
-*Disclaimer*: although all efforts were made to provide resources of the highest quality, including formal and informal reviews by peers, the author cannot guarantee full accuracy of the information, and the user utilizes the repository at her/his own risk.
+*Disclaimer*: all efforts were made to provide resources of the highest quality, including formal and informal reviews by peers. However, the author cannot guarantee full accuracy of the information, and the user utilizes the repository at her/his own risk.
 
 
 ## Citation: 
