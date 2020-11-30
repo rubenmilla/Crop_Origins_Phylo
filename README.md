@@ -4,7 +4,7 @@
 
 
 ## Downloads:
-This repository includes **[a live version](https://github.com/rubenmilla/Crop_Origins_Phylo/tree/master/Crop_Origins_Phylo_v_live)**, meant to be regularly updated, and a folder with old versions, including **[version 1.0](https://github.com/rubenmilla/Crop_Origins_Phylo/tree/master/Crop_Origins_Phylo_v1_0)**  of **Crop Origins** and **Phylo Food**, which is a static mirror of the supplementary material in Milla (2020). In those links you can find the resources, plus readme and metadata files.
+This repository includes **[a live version](https://github.com/rubenmilla/Crop_Origins_Phylo/tree/master/Crop_Origins_Phylo_v_live)** of **Crop Origins** and **Phylo Food**, meant to be regularly updated, and a folder with old versions, including **[version 1.0](https://github.com/rubenmilla/Crop_Origins_Phylo/tree/master/Crop_Origins_Phylo_v1_0/old_versions_Crop_Origins_Phylo/Crop_Origins_Phylo_v1_0)**, which is a static mirror of the supplementary material in Milla (2020). In those links you can find the resources, plus readme and metadata files.
 **Use the live version** for the most up to date data, and debugged resources!
 
 
