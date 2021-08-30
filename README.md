@@ -18,3 +18,4 @@ This is work in progress, please do not hesitate to submit your feedback or aler
 
 ## Citation: 
 Milla, R (2020) Crop Origins and Phylo Food: a database and a phylogenetic tree to stimulate comparative analyses on the origins of food crops. Global Ecology and Biogeography 29: 606-614. https://doi.org/10.1111/geb.13057.
+Milla, R (2021) Crop Origins and Phylo Food, GitHub repository, https://github.com/rubenmilla/Crop_Origins_Phylo/.
