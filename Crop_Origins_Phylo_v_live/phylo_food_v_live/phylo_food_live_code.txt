@@ -166,7 +166,7 @@ plot(checking_clade)
 #good!
 
 
-#second i locate Guizotia: heliantheae (and sister to MRCA "Acmella" "Helianthus") Plant Systematics and Evolution 289:77–89, 2010.
+#second i locate Guizotia: heliantheae (and sister to MRCA "Acmella" "Helianthus") Plant Systematics and Evolution 289:77 89, 2010.
 
 
 phylo_866_polyt_working <- drop.tip(phylo_866_polyt_working,"Guizotia_abyssinica")
@@ -208,7 +208,7 @@ plot(checking_clade)
 
 #good!
 
-#fourth i locate Spilanthes: Tribe Heliantheae and sister to Acmella. Systematic Botany 25:pp. 539–565, 2000.
+#fourth i locate Spilanthes: Tribe Heliantheae and sister to Acmella. Systematic Botany 25:pp. 539 565, 2000.
 
 
 phylo_866_polyt_working <- drop.tip(phylo_866_polyt_working,"Spilanthes_acmella")
@@ -238,7 +238,7 @@ plot(clades_with_polyt[[2]])
 #after a full evening of work, i get it.
 
 
-#tuberosum: Subgenus Solanum sensu stricto Section Petota Ser. Tuberosa III, (sect Petota sister to sect Lycopersicum, more than to muricatum): Systematic Botany (2007), 32(2): pp. 445–463
+#tuberosum: Subgenus Solanum sensu stricto Section Petota Ser. Tuberosa III, (sect Petota sister to sect Lycopersicum, more than to muricatum): Systematic Botany (2007), 32(2): pp. 445 463
 #stenotomum is sister to tuberosum (subgenus Solanum sensu stricto Section Petota ser Tuberosa III. BMC Evolutionary Biology 2008 8:145)
 #phureja : is in ser Tuberosa III and is a derivative of stonotomum ssp. stenotomum. thus, i bind it as sister to stenotomum. Source: http://mansfeld.ipk-gatersleben.de
 #goniocalyx (= subsps of stenotomum), thus i bind it as sister to the phureja-stenotomum clade. Source: http://mansfeld.ipk-gatersleben.de.
@@ -526,7 +526,7 @@ plot(checking_clade)
 # i move to clade 4, which looks easy:
 
 #clades_with_polyt[[4]]
-#sources to solve polytomies: Syst Bot 24:209-227. 1999; and Am J Bot 101: 92–103. 2014:
+#sources to solve polytomies: Syst Bot 24:209-227. 1999; and Am J Bot 101: 92 103. 2014:
 
 #sps to remove prior to bind: "Ipomoea eriocarpa"
 phylo_866_polyt_working <- drop.tip(phylo_866_polyt_working,"Ipomoea_eriocarpa")
@@ -629,7 +629,7 @@ plot(clades_with_polyt[[7]])
 #thus, I 
 # the only info i locate are taxonomic keys, which I use to solve the topology of 3 of the 5 species in the genus.
 #  Source: 
-#    Sanchez-Monge E.1991. Flora agricola. Taxonomia de las Magnoliofitas (Angiospermas) de interés agricola, con excepción de las aprovechamiento exclusivamente ornamental o forestal. Madrid: Ministerio de Agricoltura, Pesca y Alimentación.
+#    Sanchez-Monge E.1991. Flora agricola. Taxonomia de las Magnoliofitas (Angiospermas) de inter s agricola, con excepci n de las aprovechamiento exclusivamente ornamental o forestal. Madrid: Ministerio de Agricoltura, Pesca y Alimentaci n.
 # in those keys caimito is sister to lucuma, and viridis is sister to the caimito-lucuma clade.
 #for 2 species ("Pouteria_sapota"  "Pouteria_procera") i obtained no taxonomic information that permitted ascription.
 #thus, those 2 sps remain as basal to all other species in the genus.
@@ -700,7 +700,7 @@ checking_clade <- extract.clade(phylo_866_polyt_working,node_for_checking)
 plot(checking_clade)
 
 #second, get info on the 4 sps of Opuntia as polyt:
-# O. undulata (accepted name, Ser. Opuntia) and fusicaulis (unresolved name) both sister to O. ficus-indica: source: Genetic Resources and Crop Evolution 65:759–773, 2018.
+# O. undulata (accepted name, Ser. Opuntia) and fusicaulis (unresolved name) both sister to O. ficus-indica: source: Genetic Resources and Crop Evolution 65:759 773, 2018.
 #Opuntia_S_M_phylos<- read.tree("/data/trees_salmanminkov2016/data/Opuntia.tre")
 #plot(Opuntia_S_M_phylos[[1]])
 #Opuntia_S_M_phylos[[1]]$tip.label
@@ -807,13 +807,13 @@ plot(checking_clade)
 
 ## ok, move to clade 11:Polygonaceae, genus Rumex (as fam.polytomy and as fork for all Rumex sps):
 plot(clades_with_polyt[[11]])
-#Rumex is sister to Rheum: source: TAXON 64: 1188–1201, 2015.
+#Rumex is sister to Rheum: source: TAXON 64: 1188 1201, 2015.
 # patientia is in  Rumex subsect. Patientiae . source: http://www.ipni.org/
 # scutatus and acetosa are in Rumex subsect. Acetosa. source: http://www.ipni.org/ and http://elianto.fisica.unimi.it/life/index.php?x=21278&d=100&l=1
 # alpinus is in Rumex subsect. Alpini. source: http://www.efloras.org/florataxon.aspx?flora_id=1&taxon_id=250060768
-# patientia is in a clade sister to the clade of scutatus-acetosa: source: Molecular Biology and Evolution 22: 1929–1939, 2005.
+# patientia is in a clade sister to the clade of scutatus-acetosa: source: Molecular Biology and Evolution 22: 1929 1939, 2005.
 # subsect. Alpini has been proposed for integration into the larger subsect. Patientiae.
-# Thus, alpinus is more closely related to patientia than to scutatus-acetosa. source: Perspectives in Plant Ecology, Evolution and Systematics 12 (2010) 67–79
+# Thus, alpinus is more closely related to patientia than to scutatus-acetosa. source: Perspectives in Plant Ecology, Evolution and Systematics 12 (2010) 67 79
 
 
 # first, I bind acetosa:
@@ -904,8 +904,8 @@ phylo_866_polyt_working <- drop.tip(phylo_866_polyt_working,"Stizolobium_pachylo
 
 ## ok, move to clade 13:Vicia
 plot(clades_with_polyt[[13]],cex=0.9)
-#ervilia sister to the hirsuta-articulata clade. Source: Annals of Botany 96: 1085–1096, 2005.
-#tetrasperma clade sister to all other Vicia (to 2 big clades, V.articulata-cracca and V.unijuga-sativa). Source: Journal of Plant Research 119: 513–523, 2006.
+#ervilia sister to the hirsuta-articulata clade. Source: Annals of Botany 96: 1085 1096, 2005.
+#tetrasperma clade sister to all other Vicia (to 2 big clades, V.articulata-cracca and V.unijuga-sativa). Source: Journal of Plant Research 119: 513 523, 2006.
 #graminea is in V.unijuga-sativa clade. Source: Systematic Botany 33: 356-363, 2008.
 # and, within that clade, there are 2 subgenera: subgen. Vicia (V.sativa-pannonica) and subgen. Vicilla (V.unijuga). Source: https://species.wikimedia.org/wiki/
 # graminea is in sub.gen Vicilla. Source: https://species.wikimedia.org/wiki/
@@ -967,7 +967,7 @@ plot(checking_clade)
 ## ok, move to clade 14:Pachyrhizus
 plot(clades_with_polyt[[14]],cex=0.9)
 
-# erosus is sister to the clade ahipa-tuberosus. Source: Tropical Plant Biology 7:121–132, 2014.
+# erosus is sister to the clade ahipa-tuberosus. Source: Tropical Plant Biology 7:121 132, 2014.
 #thus:
 
 
@@ -1015,7 +1015,7 @@ plot(checking_clade)
 
 ## ok, move to clade 16:Vigna
 plot(clades_with_polyt[[16]],cex=0.9)
-#umbellata sister to angularis: source: Genetica 114:129–145, 2002.
+#umbellata sister to angularis: source: Genetica 114:129 145, 2002.
 #I check cylindrica in Salman-Minkov trees: Nature Plants 2:1-4, 2016.
 # S_M_vigna <- read.tree("data/trees_salmanminkov2016/data/Vigna.tre")
 # plot(S_M_vigna[[1]])
@@ -1124,8 +1124,8 @@ plot(clades_with_polyt[[18]],cex=0.9)
 #mutabilis-tauris and perennis are American and belog to subgen Platycarpos. Source: https://www.wikipedia.org/
 # thus perennis is sister to mutabilis-tauris clsde
 
-#albus is not properly placed in the phylogeny. It is sister to angustifolius-luteus clade. Source: Syst. Biol. 61(3):443–460, 2012
-#cosentinii is sister to albus. source: Source: Syst. Biol. 61(3):443–460, 2012
+#albus is not properly placed in the phylogeny. It is sister to angustifolius-luteus clade. Source: Syst. Biol. 61(3):443 460, 2012
+#cosentinii is sister to albus. source: Source: Syst. Biol. 61(3):443 460, 2012
 
 
 #first i re-bind albus:
@@ -1246,9 +1246,9 @@ write.tree(phylo_866_polyt_working,"data/phylo_866_polyt_working.tre")
 
 ## ok, move to clade 20:Rubus
 plot(clades_with_polyt[[20]],cex=0.9)
-#glaucus is from subgen. Lampobatus, which is sister to Idaeobatus. Source: American Journal of Botany 86: 81–97,  1999.
-#laciniatus is from subgen. Rubus, which is sister to the Idaeobatus-Lampobatus clade. Source:American Journal of Botany 86: 81–97,  1999. 
-# chamaemorus is from subgen. Chamaemorus, which is basal to all other subgens. Source: American Journal of Botany 86: 81–97,  1999.
+#glaucus is from subgen. Lampobatus, which is sister to Idaeobatus. Source: American Journal of Botany 86: 81 97,  1999.
+#laciniatus is from subgen. Rubus, which is sister to the Idaeobatus-Lampobatus clade. Source:American Journal of Botany 86: 81 97,  1999. 
+# chamaemorus is from subgen. Chamaemorus, which is basal to all other subgens. Source: American Journal of Botany 86: 81 97,  1999.
 # illecebrosus, idaeus, phoenicolasius, rosifolius, occidentalis are from subgen. Idaeobatus
 # 	within Idaeobatus, illecebrosus is external to all other 4 sps, according to Gleason & Cronquist NE USA Flora (weak but only source). Source: Gleason, H.A. & Cronquist, A. ( 1991) Manual of Vascular Plants of Northeastern United States and Adjacent Canada, 2nd edition. New York Botanical Garden, Bronx, New York, USA. 
 # subgen. adscription from https://species.wikimedia.org/
@@ -1366,7 +1366,7 @@ plot(checking_clade)
 ## ok, move to clade 22:Crataegus
 plot(clades_with_polyt[[22]],cex=0.9)
 #C. hupenensis is in Ser. Hupenense (source: https://en.wikipedia.org/wiki/Crataegus_hupehensis), 
-# and both C. azarolus and orientalis are in Ser. Orientalis (source: Albarouki, E. Botanical Journal of the Linnean Society 153: 255–263, 2007.)
+# and both C. azarolus and orientalis are in Ser. Orientalis (source: Albarouki, E. Botanical Journal of the Linnean Society 153: 255 263, 2007.)
 
 
 
@@ -1500,7 +1500,7 @@ plot(clades_with_polyt[[27]],cex=0.9)
 # G. pedunculata and cochinchinensis are valid names but i cant find any phylogenetic or subgen.classification
 # the only info i locate are taxonomic keys, which I use to solve the topology of the genus.
 #  Source: 
-#    Sanchez-Monge E.1991. Flora agricola. Taxonomia de las Magnoliofitas (Angiospermas) de interés agricola, con excepción de las aprovechamiento exclusivamente ornamental o forestal. Madrid: Ministerio de Agricoltura, Pesca y Alimentación.
+#    Sanchez-Monge E.1991. Flora agricola. Taxonomia de las Magnoliofitas (Angiospermas) de inter s agricola, con excepci n de las aprovechamiento exclusivamente ornamental o forestal. Madrid: Ministerio de Agricoltura, Pesca y Alimentaci n.
 # in those keys mangostana is sister to cochinchinensis, and pedunculata is sister to the mangostana-cochinchinensis clade.
 
 
@@ -1761,7 +1761,7 @@ plot(clades_with_polyt[[33]],cex=0.9)
 #  thus i re-bind it as sister to maxima.
 # C. aurantium and C. sinensis are hybrids of C. maxima and reticulata. Source: https://en.wikipedia.org/wiki/Bitter_orange
 #   C. aurantium and C. sinensis are thus varieties of the same genepool, so i bind them as sister.
-#   C. sinensis genome is 2/3 C. reticulata and 1/3 C. maxima (source: Xu, Q. Nature Genetics 45:59–66, 2013). Thus I consider reticulata as the sister species of both sinensis and aurantium.
+#   C. sinensis genome is 2/3 C. reticulata and 1/3 C. maxima (source: Xu, Q. Nature Genetics 45:59 66, 2013). Thus I consider reticulata as the sister species of both sinensis and aurantium.
 
 
 #ok, I start re-binding paradisi as sister to maxima:
@@ -1913,7 +1913,7 @@ plot(checking_clade)
 
 ## ok, move to clade 36: Vanilla
 plot(clades_with_polyt[[36]],cex=0.9)
-# V. tahitensis is a hybrid between V. planifolia and odorata. Thus, sister to planifolia in my phylogeny. Source: Cameron, KM (2011) Vanilla phylogeny and classification, pp. 243–255 in Havkin-Frenkel, D and Belanger, FC (eds), Handbook of Vanilla Science and Technology. New York: Wiley-Blackwell.
+# V. tahitensis is a hybrid between V. planifolia and odorata. Thus, sister to planifolia in my phylogeny. Source: Cameron, KM (2011) Vanilla phylogeny and classification, pp. 243 255 in Havkin-Frenkel, D and Belanger, FC (eds), Handbook of Vanilla Science and Technology. New York: Wiley-Blackwell.
 
 
 
@@ -1949,8 +1949,8 @@ plot(clades_with_polyt[[37]],cex=0.9)
 # source: https://species.wikimedia.org/wiki/
 # thus cepa re-bind as sister to fistulosum
 # ampeloprasum is direct progenitor of sativum, thus re-bind both as sister taxa, and scorodoprasum as sister of both
-# subgen Allium is sister to subgen Cepa. Source: Friesen et al. Aliso 22:372–395, 2006.
-# sects Cepa and Schoenoprasum are sister within subgen Cepa. Source: Friesen et al. Aliso 22:372–395, 2006.
+# subgen Allium is sister to subgen Cepa. Source: Friesen et al. Aliso 22:372 395, 2006.
+# sects Cepa and Schoenoprasum are sister within subgen Cepa. Source: Friesen et al. Aliso 22:372 395, 2006.
 
 
 
@@ -2080,7 +2080,7 @@ plot(checking_clade)
 plot(clades_with_polyt[[38]],cex=0.9)
 
 #miliaceum sister to virgatum. Both are in Panicum s.s., and the third sps (P. antidotale) is frequently located even outside the genus and within Setaria.
-#source: Aliscioni, S. et al. American Journal of Botany 90:796–821, 2003.
+#source: Aliscioni, S. et al. American Journal of Botany 90:796 821, 2003.
 
 
 
@@ -2110,7 +2110,7 @@ plot(checking_clade)
 ## ok, move to clade 39: Digitaria
 plot(clades_with_polyt[[39]],cex=0.9)
 #VOY POR AQUI!!
-#exilis is sister to iburua. Source: Adoukonou-Sagbadja, H. et al. Tropical Plant Biology 3:240–251, 2010.
+#exilis is sister to iburua. Source: Adoukonou-Sagbadja, H. et al. Tropical Plant Biology 3:240 251, 2010.
 
 
 
@@ -2196,8 +2196,8 @@ plot(checking_clade)
 ## ok, move to clade 42: Paspalum
 plot(clades_with_polyt[[42]],cex=0.9)
 
-#plicatulum is in group Plicatula, same as scrobiculatum, and is thus sister to the latter. Source: Rua, GH. et al. Plant Systematics and Evolution 288: 227–243, 2010.
-#distichum is sister to all other Paspalum in my phylo. Source: Scataglini, MA. Plant Systematics and Evolution 300:1051–1070, 2014.
+#plicatulum is in group Plicatula, same as scrobiculatum, and is thus sister to the latter. Source: Rua, GH. et al. Plant Systematics and Evolution 288: 227 243, 2010.
+#distichum is sister to all other Paspalum in my phylo. Source: Scataglini, MA. Plant Systematics and Evolution 300:1051 1070, 2014.
 
 
 
@@ -2222,7 +2222,7 @@ plot(checking_clade)
 
 ## ok, move to clade 43: Poa
 plot(clades_with_polyt[[43]],cex=0.9)
-# nemoralis is sister to compressa. Source: Gillespie, LJ. et al. Systematic Botany 30:84–105, 2005
+# nemoralis is sister to compressa. Source: Gillespie, LJ. et al. Systematic Botany 30:84 105, 2005
 
 
 
@@ -2255,15 +2255,15 @@ plot(checking_clade)
 plot(clades_with_polyt[[44]],cex=0.9)
 #monococcum-boeoticum clade is sister to all other Triticum in my phylo.
 # source: Petersen, G. et al. Molecular Phylogenetics and Evolution Volume 39, Issue 1, April 2006, Pages 70-82
-# source: Golovnina, KA. et al. Pl. Syst. Evol. 264: 195–216 (2007)
+# source: Golovnina, KA. et al. Pl. Syst. Evol. 264: 195 216 (2007)
 #sphaerococcum is sister to aestivum.
 #dicoccon is sister to durum-carthlicum.
 #spelta is sister to sphaerococcum-aestivum.
-# source: Matsuoka, Y. Plant and Cell Physiology, Volume 52, Issue 5, May 2011, Pages 750–764
+# source: Matsuoka, Y. Plant and Cell Physiology, Volume 52, Issue 5, May 2011, Pages 750 764
 # timopheevii is in Sect Timopheevii, separate to the sects. of all other Triticum in my phylo
-# source: Goncharov, NP. Plant Systematics and Evolution August 2011, Volume 295, Issue 1–4, pp 1–11
+# source: Goncharov, NP. Plant Systematics and Evolution August 2011, Volume 295, Issue 1 4, pp 1 11
 #and is sister to the aestivum and the dicoccon clades.
-# source: Golovnina, KA. et al. Pl. Syst. Evol. 264: 195–216 (2007) 
+# source: Golovnina, KA. et al. Pl. Syst. Evol. 264: 195 216 (2007) 
 
 #ok, i first rebin sphaerococcum
 
@@ -2384,8 +2384,8 @@ plot(clades_with_polyt[[45]],cex=0.9)
 #mango and catharticus are hexaploid and thus from the same group within sect. Ceratochloa
 #marginatus is octoploid and thus from a different group in sect. Ceratochloa
 #sources:
-# Saarela, J. M., Peterson, P. M., Keane, R. M., Cayouette, J., & Graham, S. W. (2007). Molecular phylogenetics of the genus Bromus (Poaceae: Pooideae) based on nuclear and chloroplast DNA sequence data. Aliso, 23, 450–467.
-# Williams WM, Stewart AV, Williamson ML. (2011) Bromus Wild crop relatives: genomic and breeding resources, millets and grasses. In: Kole C (Ed.) Springer-Verlag Berlin Heidelberg, 15–30. 
+# Saarela, J. M., Peterson, P. M., Keane, R. M., Cayouette, J., & Graham, S. W. (2007). Molecular phylogenetics of the genus Bromus (Poaceae: Pooideae) based on nuclear and chloroplast DNA sequence data. Aliso, 23, 450 467.
+# Williams WM, Stewart AV, Williamson ML. (2011) Bromus Wild crop relatives: genomic and breeding resources, millets and grasses. In: Kole C (Ed.) Springer-Verlag Berlin Heidelberg, 15 30. 
 
 
 
@@ -2498,11 +2498,11 @@ plot(checking_clade)
 ## ok, move to clade 49: Dioscorea
 plot(clades_with_polyt[[49]],cex=0.9)
 
-#quartiniana sister to dumetorum or pentaphylla. Source: Magwé-Tindo et al. TAXON 67:905–915, 2018.
-#quartiniana & pentaphylla in Sect. Botryosicyos. Dumetorum in Sect. Lasiophyton. Source: Schols, P. et al. Botanical Journal of the Linnean Society, Volume 136, Issue 3, July 2001, Pages 295–311.
+#quartiniana sister to dumetorum or pentaphylla. Source: Magw -Tindo et al. TAXON 67:905 915, 2018.
+#quartiniana & pentaphylla in Sect. Botryosicyos. Dumetorum in Sect. Lasiophyton. Source: Schols, P. et al. Botanical Journal of the Linnean Society, Volume 136, Issue 3, July 2001, Pages 295 311.
 #thus, quartiniana is sister to pentaphylla
 # flabellifolia is in sect. Stenophora. Source: R.S. Pagare & W. Arisdason (2016) Lectotypification in the genus Dioscorea L. (Dioscoreaceae), Webbia, 71:1, 73-81
-# Stenophora is the oldest sect (according to fossil record) in Dioscorea. Source: Kawabe, A. Genes Genet. Syst. (1997) 72, p. 253–262
+# Stenophora is the oldest sect (according to fossil record) in Dioscorea. Source: Kawabe, A. Genes Genet. Syst. (1997) 72, p. 253 262
 #thus, I keep flabellifolia as sister to all other Dioscorea.
 
 
@@ -2537,13 +2537,13 @@ plot(clades_with_polyt[[50]],cex=0.9)
 #  it is clearly an ornamental plant. 
 #  Sources: 
 #      Pichon WM. Ethnobotanical Studies on Selected Plants of Northeastern Mexico. Thesis. Eastern Illinois Univ., 1972.
-#      Croat TB. et al. FLORA DEL BAJÍO Y DE REGIONES ADYACENTES. Fasciculo 114. Araceae. 2003.
+#      Croat TB. et al. FLORA DEL BAJ O Y DE REGIONES ADYACENTES. Fasciculo 114. Araceae. 2003.
 # thus I remove X. robustum from tree and database
 # X. undipes is a former syn of sagittifolium, thus i rebind both as sister. Source: http://theplantlist.org/tpl1.1/
 # no way to locate any phylogeny or subgeneric classification of the genus
 # the only info i locate are taxonomic keys, which I use to solve the topology of the genus, but X. caracu.
 #  Source: 
-#    Sanchez-Monge E.1991. Flora agricola. Taxonomia de las Magnoliofitas (Angiospermas) de interés agricola, con excepción de las aprovechamiento exclusivamente ornamental o forestal. Madrid: Ministerio de Agricoltura, Pesca y Alimentación.
+#    Sanchez-Monge E.1991. Flora agricola. Taxonomia de las Magnoliofitas (Angiospermas) de inter s agricola, con excepci n de las aprovechamiento exclusivamente ornamental o forestal. Madrid: Ministerio de Agricoltura, Pesca y Alimentaci n.
 # i get no tax/phylo information of any kind of X. caracu, thus i keep it as basal and sister to all other sps in the genus.
 
 #first: remove X.robustum (also from database)
@@ -2652,7 +2652,7 @@ plot(clades_with_polyt[[51]],cex=0.9)
 #Rolliniopsis sister to Rollinia, as they are closely related genera.
 # Sources:
 #  Maas, PJM. Nordic Journal of Botany 29: 257-356, 2011.
-#  Walker, James W. “POLLEN MORPHOLOGY, PHYTOGEOGRAPHY, AND PHYLOGENY OF THE ANNONACEAE.” Contributions from the Gray Herbarium of Harvard University, no. 202, 1971, pp. 1–130
+#  Walker, James W.  POLLEN MORPHOLOGY, PHYTOGEOGRAPHY, AND PHYLOGENY OF THE ANNONACEAE.  Contributions from the Gray Herbarium of Harvard University, no. 202, 1971, pp. 1 130
 #Stelechocarpus is in subfam. Malmeoideae, which is sister to all other sps in this phylo (which are in subfam. Annonoideae). Source: https://species.wikimedia.org/wiki/
 
 
@@ -2813,7 +2813,7 @@ sps_not_in_GBOTB<-setdiff(rownames(data), rownames(dt))
 
 
 
-
+# 23jun2025: as per follow up on a referee request i include Urochloa ramosa as sister to Brachiaria
 
 
 
