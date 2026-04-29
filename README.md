@@ -9,7 +9,7 @@ This repository includes **[a live version](https://github.com/rubenmilla/Crop_O
 
 
 ## Usage and disclaimer:
-This is work in progress, please do not hesitate to submit your feedback or alerts on new literature, either privately to the author (ruben.milla@gmail.com), or publicly **[here](https://github.com/rubenmilla/Crop_Origins_Phylo/issues)**.
+This is work in progress, please do not hesitate to submit your feedback or alerts on new literature, either privately to the author (ruben.milla@urjc.es), or publicly **[here](https://github.com/rubenmilla/Crop_Origins_Phylo/issues)**.
 
 *Terms of use*: the resources in this repository can be freely downloaded and used by any interested person or party, provided that the source is properly cited in publications.
 
