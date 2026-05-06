@@ -2,6 +2,7 @@
 
 **Phylo Food** is a time-calibrated and fully resolved phylogenetic tree of the species in Crop Origins.
 
+Crop Origins and Phylo Food can also be browsed in the **[Crop Origins Explorer](https://crop-origins-explorer.vercel.app)** app, developed by Samson Salomon.
 
 ## Downloads:
 This repository includes **[a live version](https://github.com/rubenmilla/Crop_Origins_Phylo/tree/master/Crop_Origins_Phylo_v_live)** of **Crop Origins** and **Phylo Food**, meant to be regularly updated, and a folder with old versions, including **[version 1.0](https://github.com/rubenmilla/Crop_Origins_Phylo/tree/master/old_versions_Crop_Origins_Phylo/Crop_Origins_Phylo_v1_0)**, which is a static mirror of the supplementary material in Milla (2020). In those links you can find the resources, plus readme and metadata files.
